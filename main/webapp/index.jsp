@@ -1,0 +1,116 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise - Student Expense & Budget Manager</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary d-flex align-items-center" href="index.jsp">
+                <i class="bi bi-wallet2 fs-3 me-2"></i> SpendWise
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link fw-medium" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link fw-medium" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary px-4 rounded-pill fw-medium" href="login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary px-4 rounded-pill fw-medium" href="register">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5 my-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4 text-dark">Take Control of Your Student Money.</h1>
+                    <p class="lead text-muted mb-5 px-md-5">
+                        Track expenses, manage budgets, build savings, and make smarter financial decisions — all in one simple, powerful place designed specifically for students.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="register" class="btn btn-primary btn-lg px-5 rounded-pill shadow-sm">Start Tracking Now</a>
+                        <a href="#features" class="btn btn-light btn-lg px-5 rounded-pill shadow-sm border">Explore Features</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 pt-4 justify-content-center">
+                <div class="col-10 col-md-8">
+                    <!-- Placeholder for dashboard mockup image -->
+                    <div class="bg-white p-2 rounded-4 shadow-lg border">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80" alt="Dashboard Preview" class="img-fluid rounded-3 opacity-75" style="max-height: 400px; object-fit: cover; width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why SpendWise?</h2>
+                <p class="text-muted">Built for college life, with tools you actually need.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-4 feature-card">
+                        <div class="text-primary mb-3"><i class="bi bi-pie-chart-fill fs-1"></i></div>
+                        <h4 class="fw-bold">Smart Budgeting</h4>
+                        <p class="text-muted mb-0">Set category limits for food, transport, and leisure. Get alerts before you overspend your allowance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-4 feature-card">
+                        <div class="text-success mb-3"><i class="bi bi-piggy-bank-fill fs-1"></i></div>
+                        <h4 class="fw-bold">Savings Goals</h4>
+                        <p class="text-muted mb-0">Saving up for a new laptop or a trip? Track your progress visually and stay motivated.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 text-center rounded-4 feature-card">
+                        <div class="text-warning mb-3"><i class="bi bi-lightbulb-fill fs-1"></i></div>
+                        <h4 class="fw-bold">"Can I Afford It?"</h4>
+                        <p class="text-muted mb-0">Our smart algorithm analyzes your remaining budget to tell you if that impulse buy is a good idea.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 SpendWise. Student Project Demo.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
